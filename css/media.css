@@ -1,0 +1,39 @@
+@media(max-width:767px){
+    #about_us{
+        text-align: center;
+    }
+    .section_heading{
+        text-align: center;
+    }
+    .about_second_separator{
+        text-align: center;
+        margin-left: 47%; 
+    }
+    .service_info{
+        margin: 6%;
+        padding: 6%;
+    }
+    .move_animation{
+        margin: 6%;
+    }
+    .blog_box{
+        margin: 3% 3% 3% 3%;
+    }
+    #creative_minds{
+        text-align: center;
+    }
+    #contact{
+        text-align: center;
+    }
+    
+}
+@media(min-width:768px) and (max-width:991px){
+    
+}
+
+@media(min-width:992px) and (max-width:1199px){
+	
+}
+@media(min-width:1200px){
+	
+}
