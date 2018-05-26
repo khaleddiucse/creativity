@@ -7,6 +7,7 @@
     <title>Bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+   <link rel="stylesheet" href="css/animate.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/media.css">
   </head>
@@ -185,22 +186,22 @@
     </section>
     
     <section id="countdown" class="move_animation">
-        <div class="container">
+        <div class="container" id="counter">
             <div class="row countdown">
                 <div class="col-md-3">
-                    <h1 class="counter" data-count="5">0</h1>
+                    <h1 class="counter-value" data-count="300">0</h1>
                     <p class="counter_text">CREATIVE NINJAS</p>
                 </div>
                 <div class="col-md-3" style="border-left: 1px solid #8a8847;border-right: 1px solid #8a8847;">
-                    <h1 class="counter" data-count="100">0</h1>
+                    <h1 class="counter-value" data-count="300">0</h1>
                     <p class="counter_text" data-count="150">HAPPY CLIENTS</p>
                 </div>
                 <div class="col-md-3" style="border-right: 1px solid #8a8847;">
-                    <h1 class="counter" data-count="100">0</h1>
+                    <h1 class="counter-value" data-count="300">0</h1>
                     <p class="counter_text">TASKS COMPLETED</p>
                 </div>
                 <div class="col-md-3">
-                    <h1 class="counter" data-count="70">0</h1>
+                    <h1 class="counter-value" data-count="300">0</h1>
                     <p class="counter_text">CUPS OF COFFEE</p>
                 </div>
             </div>
@@ -320,19 +321,19 @@
     <section id="testimonial">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 move_animation">
+                <div class="col-md-4 wow bounceInUp center" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceInUp;">
                     <img src="image/person1.jpg" alt="no image found" class="testimonial_image">
                     <p class="text-medium">Great group of creatives that helped create an idea of mine. Finished the task before the deadline and did an amazing job for me.</p>
                     <h5 class="testimonial_author">DP GILL - DPG</h5>
                     <i class="fa fa-quote-left isplay-block margin-eight-top xs-margin-two-top icon-small testimonial_icon" style="color: #FF3600"></i>
                 </div>
-                <div class="col-md-4 move_animation">
+                <div class="col-md-4 wow bounceInUp" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceInUp;">
                     <img src="image/person2.jpg" alt="no image found" class="testimonial_image">
                     <p class="text-medium">Quick and responsible. Clear communication. Follows instruction, fast turn-around. Ninja Creativity’s Ninjas are definitely the keepers.</p>
                     <h5 class="testimonial_author">GEORGE YOUNGORSE – SIGNZDIRECT</h5>
                     <i class="fa fa-quote-left isplay-block margin-eight-top xs-margin-two-top icon-small testimonial_icon" style="color: #FFCE00"></i>
                 </div>
-                <div class="col-md-4 move_animation">
+                <div class="col-md-4 wow bounceInUp" style="visibility: visible; animation-delay: 0.6s; animation-name: bounceInUp;">
                     <img src="image/person3.jpg" alt="no image found" class="testimonial_image">
                     <p class="text-medium">It’s been a breeze working with Ninja Creativity. They deliver on time, very flexible, quick responses, and overall very professional. Thank you Ninja Creativity!</p>
                     <h5 class="testimonial_author">MAIRA ARELLANO - GO GADGET</h5>
@@ -381,17 +382,17 @@
                     <a href="#LETS TOGETHER" class="button">LET'S WORK TOGETHER</a>
                 </div>
                 <div class="col-md-7">
-                    <div class="row" style="text-align: center">
+                    <div class="row counter" style="text-align: center">
                         <div class="col-md-4">
-                            <h1  class="counter" data-count="4">0</h1>
+                            <h1  class="counter-value" data-count="100">0</h1>
                             <p class="counter_text">NINJA</p>
                         </div>
                         <div class="col-md-4">
-                            <h1 class="counter" data-count="2"></h1>
+                            <h1 class="counter-value" data-count="50"></h1>
                             <p class="counter_text">DESIGNER</p>
                         </div>
                         <div class="col-md-4">
-                            <h1 class="counter" data-count="1">0</h1>
+                            <h1 class="counter-value" data-count="30">0</h1>
                             <p class="counter_text">SUPPORT</p>
                         </div>
                     </div>
@@ -406,7 +407,7 @@
                    <div class="post">
                        <img src="image/gallary1.png" alt="" class="img-responsive">
                         <div class="overlay">
-                            <h2>AUTHOR</h2>
+                            <h4>AUTHOR</h4>
                         </div>
                    </div> 
                 </div>
@@ -414,7 +415,7 @@
                    <div class="post">
                        <img src="image/gallary2.png" alt="" class="img-responsive">
                         <div class="overlay">
-                            <h2>AUTHOR</h2>
+                            <h4>AUTHOR</h4>
                         </div>
                    </div> 
                 </div>
@@ -422,7 +423,7 @@
                    <div class="post">
                        <img src="image/gallary3.png" alt="" class="img-responsive">
                         <div class="overlay">
-                            <h2>AUTHOR</h2>
+                            <h4>AUTHOR</h4>
                         </div>
                    </div> 
                 </div>
@@ -430,7 +431,7 @@
                    <div class="post">
                        <img src="image/gallary4.png" alt="" class="img-responsive">
                         <div class="overlay">
-                            <h2>AUTHOR</h2>
+                            <h4>AUTHOR</h4>
                         </div>
                    </div> 
                 </div>
@@ -440,7 +441,7 @@
                    <div class="post">
                        <img src="image/gallary3.png" alt="" class="img-responsive">
                         <div class="overlay">
-                            <h2>AUTHOR</h2>
+                            <h4>AUTHOR</h4>
                         </div>
                    </div> 
                 </div>
@@ -448,7 +449,7 @@
                    <div class="post">
                        <img src="image/gallary4.png" alt="" class="img-responsive">
                         <div class="overlay">
-                            <h2>AUTHOR</h2>
+                            <h4>AUTHOR</h4>
                         </div>
                    </div> 
                 </div>
@@ -456,7 +457,7 @@
                    <div class="post">
                        <img src="image/gallary1.png" alt="" class="img-responsive">
                         <div class="overlay">
-                            <h2>AUTHOR</h2>
+                            <h4>AUTHOR</h4>
                         </div>
                    </div> 
                 </div>
@@ -464,7 +465,7 @@
                    <div class="post">
                        <img src="image/gallary2.png" alt="" class="img-responsive">
                         <div class="overlay">
-                            <h2>AUTHOR</h2>
+                            <h4>AUTHOR</h4>
                         </div>
                    </div> 
                 </div>
@@ -606,7 +607,7 @@
                             <a href="#" class="social_icon"><i class="fa fa-instagram"></i></a>
                             <a href="#" class="social_icon"><i class="fa fa-dribbble"></i></a>
                         </li>
-                    </ul>
+                    </ul>      
                 </div>
                 <div class="col-md-2">
                     <img src="image/logo2.png" alt="no image" class="img-responsive">
@@ -615,7 +616,7 @@
         </div>
     </section>
     <section id="footer">
-        <div class="container">
+        <div class="container-fluid">
             <div class="col-md-12" style="margin: 4% 0 4% 0;">
                 <p class="posted_text2">COPYRIGHT &copy; 2018 NINJA CREATIVITY - ALL RIGHTS RESERVED</p>
             </div>
@@ -623,13 +624,48 @@
     </section>
     
     
- 
-     
-    
-   
+
     
      <script src="js/jquery-3.2.1.min.js"></script>
      <script src="js/bootstrap.min.js"></script>
+     
+     <!--counter up-->
+     <script>
+         var a = 0;
+            $(window).scroll(function() {
+
+              var oTop = $('#counter').offset().top - window.innerHeight;
+              if (a == 0 && $(window).scrollTop() > oTop) {
+                $('.counter-value').each(function() {
+                  var $this = $(this),
+                    countTo = $this.attr('data-count');
+                  $({
+                    countNum: $this.text()
+                  }).animate({
+                      countNum: countTo
+                    },
+
+                    {
+
+                      duration: 8000,
+                      easing: 'swing',
+                      step: function() {
+                        $this.text(Math.floor(this.countNum));
+                      },
+                      complete: function() {
+                        $this.text(this.countNum);
+                        //alert('finished');
+                      }
+
+                    });
+                });
+                a = 1;
+              }
+
+            });
+    </script>
+     
+     
       <script>
         var $star_rating = $('.star-rating .fa');
 
@@ -653,6 +689,8 @@
 
         });
     </script>
+    
+               <!--scroll smoothing -->
     <script>
         $(document).ready(function(){
           // Add smooth scrolling to all links
@@ -680,32 +718,14 @@
         });
     </script>
     
-    <script>
-       $('.counter').each(function() {
-          var $this = $(this),
-              countTo = $this.attr('data-count');
-
-          $({ countNum: $this.text()}).animate({
-            countNum: countTo
-          },
-
-          {
-
-            duration: 8000,
-            easing:'linear',
-            step: function() {
-              $this.text(Math.floor(this.countNum));
-            },
-            complete: function() {
-              $this.text(this.countNum);
-              //alert('finished');
-            }
-
-          });  
-
-        });
-        
-    </script>
+   
     <script src="js/jquery.countup.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/wow.min.js"></script>
+     <script>
+              new WOW().init();
+     </script>
+    
+        
 </body>
 </html>

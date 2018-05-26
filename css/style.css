@@ -46,12 +46,11 @@ a{
     color: #FFFFFF;
     font-weight: 600;
 }
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:hover{
     color: #D4D4D4;
 }
-.navbar-default .navbar-nav > li > a :active{
-    border-bottom: 1px solid #868686;
-}
+
+
 
 .carousel-indicators li {
     display: inline-block;
@@ -318,17 +317,18 @@ a{
    height: 100%;
     
 }
-.overlay h2{
- color: white;
- border: 6px solid white;
- padding: 10px 30px;
-  font-size: 50px;
+.overlay h4{
+ color: #FFFFFF;
+ border-bottom: 6px solid #FF3600;
+ padding: 15px 30px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+    width: 50%;
 }
 
 /*overlay end*/
@@ -385,24 +385,5 @@ a{
     text-align: center;
 }
 
-.move_animation{
-            position: relative;
-            animation-name: moving-animation;
-            animation-duration: 8s;
-            /*animation-delay: 2s;*/
-            animation-iteration-count: 1;
-            animation-direction: alternate;
-        }
-        
-        @keyframes moving-animation{
-            /*0%{left: 0;top: 0px;} */ 
-            /*25%{left: 400px;top: 0px;}  
-            50%{
-                left: 400px;top: 400px;
-            }*/  
-            0%{
-                left: 0px;top: 100px;
-            }   
-            100%{
-                left: 0px;top: 0px;
-            }
+            
+            
